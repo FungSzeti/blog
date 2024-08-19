@@ -1,5 +1,13 @@
 baseURL = 'https://example.org/'
-languageCode = 'en-us'
+defaultContentLanguage = "zh-cn"
+languageCode = "zh-CN"
 title = 'My New Hugo Site'
 
 theme = "DoIt"
+
+[params]
+    version = "0.4.X"
+
+[markup]
+    [markup.highlight]
+        noClasses = false
