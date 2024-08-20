@@ -1,12 +1,58 @@
+# 网址
 baseURL = 'https://example.org/'
+
+# 默认语言
 defaultContentLanguage = "zh-cn"
+
+# 网站语言
 languageCode = "zh-CN"
+
+# 包含中日韩语言
+hasCJKLanguage = true
+
+# 网站站标题
 title = "诶嘿？"
 
+# 使用的主题
 theme = "DoIt"
 
 [params]
+    # DoIt 使用的主题版本
     version = "0.4.X"
+
+    description = "诶嘿"
+
+    # 网站默认主题样式
+    defaultTheme = "auto"
+
+    dateFormat = "2024年10月24日"
+
+    enablePWA = false
+    
+    [params.footer]
+        enable = true
+        hugo = true
+        copyright = true
+        author = true
+        since = 2024
+
+    [params.section]
+        paginate = 50
+
+    [params.list]
+        paginate = 50
+
+    [params.page]
+        enableLastMod = true
+        enableWordCount = true
+    [params.page.toc]
+        enable = true
+        keepStatic = false
+        auto = true
+
+    [params.page.code]
+        copy = true
+        maxShownLines = 50
 
 [markup]
     [markup.highlight]
