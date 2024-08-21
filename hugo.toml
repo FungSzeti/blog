@@ -25,7 +25,7 @@ theme = "DoIt"
     # 网站默认主题样式
     defaultTheme = "auto"
 
-    dateFormat = "2024年10月24日"
+    # dateFormat = "2024-10-24"
 
     enablePWA = false
     
@@ -42,9 +42,6 @@ theme = "DoIt"
     [params.list]
         paginate = 50
 
-    [params.page]
-        enableLastMod = true
-        enableWordCount = true
     [params.page.toc]
         enable = true
         keepStatic = false
