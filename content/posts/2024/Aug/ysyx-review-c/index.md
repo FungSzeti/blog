@@ -4,7 +4,7 @@ subtitle: ""
 description: ""
 date: 2024-08-22T23:53:25+08:00
 lastmod: 2024-08-23T23:53:25+08:00
-draft: true
+draft: false
 
 tags: ["C", "C语言", "ysyx"]
 categories: ["ysyx"]

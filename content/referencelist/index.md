@@ -4,14 +4,10 @@ subtitle: "Reference List"
 description: ""
 date: 2024-08-22T21:59:13+08:00
 lastmod: 2024-08-22T21:59:13+08:00
-draft: true
-
-resources:
-- name: "featured-image"
-  src: "featured-image.webp"
+draft: false
 
 tags: []
-categories: ["tech"]
+categories: []
 series: []
 hiddenFromHomePage: false
 hiddenFromSearch: false
