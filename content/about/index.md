@@ -14,14 +14,14 @@ comment:
 ![伪代码](about.png)
 
 > 本站的文章可能
-> 以[中文](https://fonstie.com/zh-cn/)或[英文](https://fonstie/en/)两种语言书
-> 写，其中部分文章可能是双语，也有部分文章只有[中文](https://fonstie/zh-cn/)或
-> 者[英文](https://fonstie/en/)版本，请读者按需阅读。
+> 以[中文](https://fonstie.com)或[英文](https://fonstie.com/en/)两种语言书
+> 写，其中部分文章可能是双语，也有部分文章只有[中文](https://fonstie.com)或
+> 者[英文](https://fonstie.com/en/)版本，请读者按需阅读。
 
-> The articles on this site may be written in [Chinese](https://fonstie/zh-cn/) or
-> [English](https://fonstie/en/), some of them may be bilingual, and some of them
-> are only available in [Chinese](https://fonstie/zh-cn/) or
-> [English](https://fonstie/en/). Please read them as needed.
+> The articles on this site may be written in [Chinese](https://fonstie.com) or
+> [English](https://fonstie.com/en/), some of them may be bilingual, and some of them
+> are only available in [Chinese](https://fonstie.com) or
+> [English](https://fonstie.com/en/). Please read them as needed.
 
 ## 关于我
 - **昵称**：
@@ -46,12 +46,8 @@ comment:
 
 ## 喜欢的句子
 
-{{< admonition type=information title="This is a sentence" open=false >}} 
+{{< admonition information "喜欢的句子" true >}} 
 雄关漫道真如铁，而今迈步从头越，从头越，苍山如海，残阳如血。
-{{< /admonition >}}
-
-{{< admonition type=information title="This is a sentence" open=yfalse >}} 
-横空出世，莽昆仑，阅尽人间春色。飞起玉龙三百万，搅得周天寒彻。
 {{< /admonition >}}
 
 ## 技能

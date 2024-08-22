@@ -9,7 +9,7 @@ draft: false
 
 toc:
 
-  enable: falsez
+  enable: false
 ---
 
 > 在这个浮躁的社会，希望能够静下心，放慢脚步，脚踏实地、系统性的学习。
