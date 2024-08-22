@@ -4,7 +4,7 @@ subtitle: ""
 description: ""
 date: 2024-08-22T12:55:21+08:00
 lastmod: 2024-08-22T12:55:21+08:00
-draft: true
+draft: false
 
 tags: ["日记", "一生一芯"]
 categories: ["life", "日记"]
