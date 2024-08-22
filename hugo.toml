@@ -100,13 +100,21 @@ enableEmoji = true
             title = ""
             weight = 7
         [[languages.zh-cn.menu.main]]
+            identifier = "diary"
+            pre = ""
+            post = ""
+            name = "日记"
+            url = "/categories/diary/"
+            title = ""
+            weight = 9
+        [[languages.zh-cn.menu.main]]
             identifier = "tags"
             pre = ""
             post = ""
             name = "标签"
             url = "/tags/"
             title = ""
-            weight = 9
+            weight = 11
         [[languages.zh-cn.menu.main]]
             identifier = "now"
             pre = ""
@@ -114,7 +122,7 @@ enableEmoji = true
             name = "此刻"
             url = "/now/"
             title = ""
-            weight = 11
+            weight = 13
         [[languages.zh-cn.menu.main]]
             identifier = "friends"
             pre = ""
@@ -122,7 +130,7 @@ enableEmoji = true
             name = "朋友们"
             url = "/friends/"
             title = ""
-            weight = 13
+            weight = 15
         [[languages.zh-cn.menu.main]]
             identifier = "about"
             pre = ""
@@ -130,7 +138,7 @@ enableEmoji = true
             name = "关于"
             url = "/about/"
             title = ""
-            weight = 15
+            weight = 17
 
     [languages.en]
         weight = 2
