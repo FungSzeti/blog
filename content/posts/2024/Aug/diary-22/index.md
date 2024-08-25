@@ -7,7 +7,7 @@ lastmod: 2024-08-23T15:37:21+08:00
 draft: false
 
 tags: ["日记", "一生一芯"]
-categories: ["life", "diary"]
+categories: ["life"]
 series: ["日记"]
 series_weight: 1		
 hiddenFromHomePage: false
@@ -37,6 +37,8 @@ comment:
 
 目前C语言大体上已经学习的差不多了，剩余的就边用边学了。
 
+<!--more-->
+
 <br>
 
 > 日常记录
@@ -60,3 +62,11 @@ comment:
 Typora在Alt + Tab 切换页面时会自动添加tab，有点烦，但是不影响使用。
 
 Hugo 对于中文会自动删除换行，即使禁用了也依然无效，现在的解决方法是用 `<br>` 来代替换行。
+
+<br>
+
+目前的计划：
+
++ 首页文章的摘要修改格式
++ 文章的头部图片
++ 评论系统琢磨一下，但不一定会搞

@@ -146,11 +146,11 @@ enableEmoji = true
             title = ""
             weight = 9
         [[languages.zh-cn.menu.main]]
-            identifier = "diary"
+            identifier = "reading"
             pre = ""
             post = ""
-            name = "日记"
-            url = "/categories/diary/"
+            name = "读书进度"
+            url = "/reading/"
             title = ""
             weight = 11
         [[languages.zh-cn.menu.main]]

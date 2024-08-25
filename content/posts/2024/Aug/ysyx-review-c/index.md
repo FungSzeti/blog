@@ -1,14 +1,15 @@
 ---
-title: "C语言"
+title: "复（Xué）习（Xí）C语言"
 subtitle: ""
 description: ""
 date: 2024-08-22T23:53:25+08:00
 lastmod: 2024-08-23T23:53:25+08:00
 draft: false
 
-tags: ["C", "C语言", "ysyx"]
+tags: ["C", "C语言", "一生一芯"]
 categories: ["ysyx"]
 series: ["一生一芯"]
+series_weight: 3
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
@@ -35,6 +36,8 @@ TO BE DONE...
 {{<admonition>}}
 主要是记录C语言的一些笔记，外加预学习中对于LCTHW中那些习题的要求的解题思路
 {{</admonition>}}
+
+<!--more-->
 
 <br>
 
