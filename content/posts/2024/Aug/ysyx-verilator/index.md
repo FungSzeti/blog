@@ -1,5 +1,5 @@
 ---
-title: "搭建Verilator仿真环境"
+title: "预学习-搭建Verilator仿真环境"
 subtitle: ""
 description: ""
 date: 2024-08-23T15:29:04+08:00
