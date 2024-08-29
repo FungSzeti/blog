@@ -4,7 +4,7 @@ subtitle: "2024.8.26-2024.9.1"
 description: ""
 date: 2024-08-26T01:19:13+08:00
 lastmod: 2024-08-26T01:19:13+08:00
-draft: true
+draft: false
 
 tags: ["周记"]
 categories: ["life"]
