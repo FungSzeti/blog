@@ -7,7 +7,7 @@ lastmod: 2024-08-23T23:53:25+08:00
 draft: false
 
 tags: ["C", "C语言", "一生一芯"]
-categories: ["ysyx"]
+categories: []
 series: ["一生一芯"]
 series_weight: 3
 hiddenFromHomePage: false

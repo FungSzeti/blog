@@ -7,7 +7,7 @@ lastmod: 2024-08-23T15:29:04+08:00
 draft: false
 
 tags: ["一生一芯", "Verilator"]
-categories: ["ysyx"]
+categories: []
 series: ["一生一芯"]
 series_weight: 4
 hiddenFromHomePage: false

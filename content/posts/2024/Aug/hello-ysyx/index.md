@@ -7,7 +7,7 @@ lastmod: 2024-08-22T15:00:16+08:00
 draft: false
 
 tags: ["一生一芯"]
-categories: ["ysyx"]
+categories: []
 series: ["一生一芯"]
 series_weight: 1
 hiddenFromHomePage: false
