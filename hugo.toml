@@ -145,14 +145,14 @@ enableEmoji = true
             url = "/categories/ysyx/"
             title = ""
             weight = 9
-        [[languages.zh-cn.menu.main]]
-            identifier = "reading"
-            pre = ""
-            post = ""
-            name = "读书进度"
-            url = "/reading/"
-            title = ""
-            weight = 11
+#[[languages.zh-cn.menu.main]]
+#identifier = "reading"
+#pre = ""
+#post = ""
+#name = "读书进度"
+#url = "/reading/"
+#title = ""
+#weight = 11
         [[languages.zh-cn.menu.main]]
             identifier = "tags"
             pre = ""
@@ -161,14 +161,14 @@ enableEmoji = true
             url = "/tags/"
             title = ""
             weight = 13
-        [[languages.zh-cn.menu.main]]
-            identifier = "referencelist"
-            pre = ""
-            post = ""
-            name = "参考清单"
-            url = "/referencelist/"
-            title = ""
-            weight = 15
+#[[languages.zh-cn.menu.main]]
+#identifier = "referencelist"
+#pre = ""
+#post = ""
+#name = "参考清单"
+#url = "/referencelist/"
+#title = ""
+#weight = 15
         [[languages.zh-cn.menu.main]]
             identifier = "now"
             pre = ""
