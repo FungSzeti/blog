@@ -126,7 +126,7 @@ enableEmoji = true
             pre = ""
             post = ""
             name = "技术"
-            url = "/categories/技术/"
+            url = "/categories/tech/"
             title = ""
             weight = 5
         [[languages.zh-cn.menu.main]]
@@ -134,17 +134,17 @@ enableEmoji = true
             pre = ""
             post = ""
             name = "生活"
-            url = "/categories/生活/"
+            url = "/categories/life/"
             title = ""
             weight = 7
-        [[languages.zh-cn.menu.main]]
-            identifier = "ysyx"
-            pre = ""
-            post = ""
-            name = "一生一芯"
-            url = "/categories/一生一芯/"
-            title = ""
-            weight = 9
+        #[[languages.zh-cn.menu.main]]
+            #identifier = "一生一芯"
+            #pre = ""
+            #post = ""
+            #name = "一生一芯"
+            #url = "/categories/一生一芯/"
+            #title = ""
+            #weight = 9
 #[[languages.zh-cn.menu.main]]
 #identifier = "reading"
 #pre = ""

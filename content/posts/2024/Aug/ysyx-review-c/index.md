@@ -6,7 +6,7 @@ date: 2024-08-22T23:53:25+08:00
 lastmod: 2024-08-23T23:53:25+08:00
 draft: false
 
-tags: ["C", "C语言", "一生一芯"]
+tags: ["C语言", "一生一芯"]
 categories: []
 series: ["一生一芯"]
 series_weight: 3

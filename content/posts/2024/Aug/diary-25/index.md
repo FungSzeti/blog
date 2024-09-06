@@ -6,7 +6,7 @@ date: 2024-08-25T23:42:14+08:00
 lastmod: 2024-08-25T23:42:14+08:00
 draft: false
 
-tags: ["日记", "一生一芯"]
+tags: ["日记"]
 categories: ["life"]
 series: ["日记"]
 series_weight: 2
