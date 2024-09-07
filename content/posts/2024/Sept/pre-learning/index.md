@@ -1,15 +1,18 @@
 ---
-title: "预学习-PA0学习记录"
+title: "一生一芯-预学习"
 subtitle: ""
 description: ""
-date: 2024-08-22T15:24:42+08:00
-lastmod: 2024-08-22T15:24:42+08:00
+date: 2024-09-07T14:31:20+08:00
+lastmod: 2024-09-07T14:31:20+08:00
 draft: true
 
-tags: ["一生一芯", "NJU PA"]
-categories: []
-series: ["一生一芯"]
-series_weight: 2
+resources:
+- name: "featured-image"
+  src: "featured-image.webp"
+
+tags: []
+categories: ["tech"]
+series: []
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
@@ -30,19 +33,23 @@ comment:
   disqus:
     enable: false
 ---
-<br>
+
+TO BE DONE...
+
+## PA0
+
 {{<admonition>}}
 本文是在一个月之后的复盘，所以很多细节都已缺失或不准确，以及每个人的配置不同，最终的结果也是不同的，请根据实际情况。
 {{</admonition>}}
 
 <!--more-->
 
-## 发行版使用体验及总结
+### 发行版使用体验及总结
 
 其实本来应该在4月20日考完专升本的考试之后就开始了的，但是折腾Linux环境就花了很久的时间，把大部分常见的发行版都折腾了一遍。具体有Debian，Ubuntu，Fedora，Arch，NixOS，Void Linux，openSUSE Tumbleweed，Gentoo Linux，Linux Mint……
 <br>
 
-##### 以下是具体发行版的折腾经历
+#### 以下是具体发行版的折腾经历
 > Debian
 
 其实我第一个尝试的就是Debian，在高中的时候，仅仅只是为了装酷，虽然没有朋友去炫耀，但是装逼给自己看也不是不行，谁说不能自己一遍演戏一遍观赏的。
@@ -63,7 +70,7 @@ comment:
 <br>
 {{< admonition abstract "Debian英文文档原文" false >}}
 
-## Installation
+### Installation
 
 
 
@@ -188,7 +195,7 @@ Fedora其实基本就是先有的软件或驱动等的试验场，例如Wayland�
 
 <br>
 
-##### 发行版体验总结
+#### 发行版体验总结
 
 主流的基本上都试了一遍。
 
@@ -208,7 +215,7 @@ Gentoo应该是在安装的过程中某个参数或配置没有搞好，最后�
 
 <br>
 
-## PA0总结
+### PA0总结
 嗯，其实没什么好总结的吧，一切都挺简单的，都是很基础的内容。
 
 需要注意的一些就是Arch对软件包的命名方式并不一样，例如在Debian系上的 `libsdl2` 在Arch上应该是 `sdl2`。还有一点，Arch的打包策略也不一样，例如GCC，在arch上只有一个gcc的软件包，实质上名为GCC（GNU Compiler Collection），而不是把gcc和g++分开打包，Arch一般不怎么拆包，所以看上去软件包的数量要少上许多。
@@ -222,3 +229,13 @@ PA0提供的 `.vimrc` 倒是和我自己慢慢的配置差不多，不过我基�
 其他部分按照讲义的要求来走基本上不会出现什么问题。
 
 配置多个ssh-key倒是会遇见一些奇奇怪怪的问题，主要是和GitHub有关，在学习记录上有说明，另外在obsidian的 `疑难问题` 中也有说明，看情况也会另外开一个文章。
+
+
+
+---
+
+
+
+## 复（Xué）习（Xí）C语言
+
+### LCTHW附加题

@@ -4,7 +4,7 @@ subtitle: ""
 description: ""
 date: 2024-08-23T15:29:04+08:00
 lastmod: 2024-08-23T15:29:04+08:00
-draft: false
+draft: true
 
 tags: ["一生一芯", "Verilator"]
 categories: []

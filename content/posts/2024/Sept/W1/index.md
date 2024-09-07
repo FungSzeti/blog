@@ -183,4 +183,38 @@ Gentoo的基于源码并不是很有吸引力，毕竟Arch实质上也有一个A
 
 原来git diff是和暂存区的文件做比较的，难怪好几次都没用，毕竟都已经commit了。
 
-emmm，楼上的小孩是真的吵啊，大人是死了吗，还有为什么每次都tm在快十点的时候才跳绳，不说去楼下跳绳了，tm去门口过道上跳绳啊，反正一层只有两户人家，这tm要是在其他的几栋楼里估计早就被人打死了，他妈的，什么狗逼玩意，每次半夜一两点了还tm跑来跑去，跳来跳去的，真他妈是法治社会救了你们，不然老早他妈拿把刀砍死你们了。
+罢了，这一部分就删了，但是已提交的commit不知道怎么删除。
+
+算了，暂时跳过吧，无所谓。
+
+
+
+---
+
+
+
+## 9月7日
+
+### 碎碎念
+
+timeshift还是不太靠谱，也有可能是Btrfs，不清楚具体是哪一个，在还原的时候又出问题了。
+
+唯一可以记录的就是，重启可以解决90%的问题，在archiso中挂载之后arch-chroot可以解决98%的问题，重装可以解决99.9%的问题，剩下的就只能重新购买一台机器了。
+
+还是写一下吧。
+
+使用timeshift还原时，启动会出现报错，大概形如以下
+
+~~~shell
+[FAILED]Failed to mount /boot
+[DEPEND]Dependency failed for Local File Systems.
+You are in emergency mode. After logging in, typre "journalctl -xb" to view system logs, "systemctl reboot" to reboot, or "exit" to continue bootup.
+Give root password for maintenance
+(or press Control-D to continue):
+~~~
+
+这里最难受的一点在于这个界面无法接受输入，可能PS2接口的可以？不清楚为什么。其实应该是可以跳过启动引导的，手动解决，但是我不会……
+
+一般这种情况就是内核版本不一致导致的无法挂载boot分区，然后就无法进去系统了，如果查看的话大概率还能发现“unknown filesystem type ‘vfat’ error”。
+
+解决办法就是找一个archiso，然后依次挂载->chroot->pacman -Syu linux或者pacstrap -K /mnt linux（也可以把base base-devel linux linux-firmware linux-header都重新装一遍），最后exit后umount，reboot即可。
